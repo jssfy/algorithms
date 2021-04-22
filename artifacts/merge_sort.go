@@ -1,4 +1,4 @@
-package merge
+package artifacts
 
 import "fmt"
 
@@ -33,14 +33,14 @@ func merge(data []Value, start int, mid int, end int) {
 }
 
 // swap by slice index
-func swap(data []Value, i int, j int) {
-	// check if i & j valid
-	if i > len(data) || j > len(data) {
-		panic("out of index")
-	}
+// func swap(data []Value, i int, j int) {
+// 	// check if i & j valid
+// 	if i > len(data) || j > len(data) {
+// 		panic("out of index")
+// 	}
 
-	// swapping
-	temp := data[i]
-	data[i] = data[j]
-	data[j] = temp
-}
+// 	// swapping
+// 	temp := data[i]
+// 	data[i] = data[j]
+// 	data[j] = temp
+// }
